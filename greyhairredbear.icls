@@ -38,6 +38,7 @@
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="ff" />
+        <option name="EFFECT_COLOR" value="ff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -77,6 +78,8 @@
       <value>
         <option name="FOREGROUND" value="ff" />
         <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="ff" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
