@@ -1,0 +1,24 @@
+
+# theme
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# plugins
+plugins=(git)
+
+# navigation aliases
+alias dev="cd ~/development/"
+alias home="cd ~"
+
+# git aliases
+alias g="git"
+alias gc="git c"
+alias gs="git s"
+alias ga="git a"
+alias gf="git fetch --prune"
+alias gl="git l"
+alias gp="git p"
+alias gnb="git cob"
+
+# docker aliases
+alias d="docker"
+alias dps="docker ps"
