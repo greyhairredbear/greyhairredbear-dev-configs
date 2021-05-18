@@ -1,2 +1,5 @@
 bind diff <Up> scroll-line-up
 bind diff <Down> scroll-line-down
+
+bind stage <Up> scroll-line-up
+bind stage <Down> scroll-line-down
