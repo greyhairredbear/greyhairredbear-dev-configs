@@ -1,0 +1,24 @@
+# navigation
+alias dev="cd ~/development/"
+alias home="cd ~"
+alias notes="cd ~/notes"
+
+# git
+alias g="git"
+alias gc="git commit -m"
+alias gs="git status -sb"
+alias ga="git add"
+alias gf="git fetch --prune"
+alias gl="git pull"
+alias gp="git push"
+alias gco="git checkout"
+alias gcob="git checkout -b"
+alias glsr="git remote -v"
+alias glg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(057)%an%C(reset) - %C(black)%s%C(reset) %C(025)%d%C(reset) %C(bold 028)(%ar)%C(reset)'"
+alias gdel="git branch -D"
+alias gcfg="git config --global -l"
+alias gbr="git branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate"
+
+# docker aliases
+alias d="docker"
+alias dps="docker ps"

@@ -74,7 +74,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh 
+source .aliases 
+source .functions
 
 # User configuration
 
@@ -109,36 +111,6 @@ eval "$(pyenv init -)"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# navigation aliases
-alias dev="cd ~/development/"
-alias home="cd ~"
-
-# git aliases
-alias g="git"
-alias gc="git c"
-alias gs="git s"
-alias ga="git a"
-alias gf="git fetch --prune"
-alias gl="git l"
-alias gp="git p"
-alias gnb="git cob"
-alias glg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(057)%an%C(reset) - %C(black)%s%C(reset) %C(025)%d%C(reset) %C(bold 028)(%ar)%C(reset)'"
-
-gitall() {
-    git add .
-    if [ "$1" != "" ] # or better, if [ -n "$1" ]
-    then
-        git commit -m "$1"
-    else
-        git commit -m update
-    fi
-    git push
-}
-
-# docker aliases
-alias d="docker"
-alias dps="docker ps"
 
 
 eval "$(rbenv init -)"
