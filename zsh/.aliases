@@ -1,5 +1,5 @@
 # navigation
-alias dev="cd ~/development/"
+alias dev="cd ~/dev"
 alias home="cd ~"
 alias notes="cd ~/notes"
 
