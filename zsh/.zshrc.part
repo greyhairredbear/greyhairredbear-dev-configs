@@ -75,8 +75,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh 
-source .aliases 
-source .functions
+source /Users/peterlaggner/.aliases         # use absolute path here
+source /Users/peterlaggner/.functions       # use absolute path here
 
 # User configuration
 
