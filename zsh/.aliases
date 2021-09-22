@@ -20,6 +20,7 @@ alias gcfg="git config --global -l"
 alias gbr="git branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate"
 alias ghide="git update-index --assume-unchanged"
 alias gunhide="git update-index --no-assume-unchanged"
+alias ghidden="git ls-files -v | grep '^h' | cut -c3-"
 
 alias lg="lazygit"
 
