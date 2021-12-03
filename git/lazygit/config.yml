@@ -173,3 +173,8 @@ keybinding:
     bulkMenu: 'b'
 os:
   openCommand: 'code -rg {{filename}}'
+customCommands:
+  - key: 'C'
+    command: 'git merge {{.SelectedLocalBranch.Name}} --commit --no-ff'
+    context: 'localBranches'
+    description: 'merge with merge commit'
