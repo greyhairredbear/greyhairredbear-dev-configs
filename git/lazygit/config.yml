@@ -178,3 +178,7 @@ customCommands:
     command: 'git merge {{.SelectedLocalBranch.Name}} --commit --no-ff'
     context: 'localBranches'
     description: 'merge with merge commit'
+  - key: 'F'
+    command: 'git fetch --prune'
+    context: 'localBranches'
+    description: 'fetch and prune'
