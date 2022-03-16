@@ -30,7 +30,7 @@ gui:
 git:
   paging:
     colorArg: always
-    useConfig: false
+    pager: delta --light --paging=never
   merging:
     # only applicable to unix users
     manualCommit: false
