@@ -85,8 +85,11 @@ export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
 
-#pyenv
+# pyenv
 eval "$(pyenv init -)"
+
+# dart pub libraries path
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
