@@ -94,6 +94,9 @@ fi
 # dart pub libraries path
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 
+# dotnet from homebrew
+export PATH="/usr/local/share/dotnet:$PATH"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
