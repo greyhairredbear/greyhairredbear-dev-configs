@@ -48,10 +48,12 @@ source /Users/peterlaggner/.functions       # use absolute path here
 
 # User configuration
 
+# homebrew github api token
+export HOMEBREW_GITHUB_API_TOKEN=your-token-here
+
 # jenv
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
-
 
 # pyenv
 PATH=$(pyenv root)/shims:$PATH
