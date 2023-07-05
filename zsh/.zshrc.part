@@ -9,7 +9,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/yourname/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # theme
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -43,8 +43,8 @@ HYPHEN_INSENSITIVE="true"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh 
-source /Users/peterlaggner/.aliases         # use absolute path here
-source /Users/peterlaggner/.functions       # use absolute path here
+source $HOME/.aliases         # use absolute path here
+source $HOME/.functions       # use absolute path here
 
 # User configuration
 
