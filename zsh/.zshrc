@@ -48,29 +48,19 @@ source $HOME/.functions       # use absolute path here
 
 # User configuration
 
-# homebrew github api token
-export HOMEBREW_GITHUB_API_TOKEN=your-token-here
-
 # jenv
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
-# pyenv
-PATH=$(pyenv root)/shims:$PATH
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
-
 # dart pub libraries path
 export PATH="$PATH":"$HOME/.pub-cache/bin"
-
-# dotnet from homebrew
-export PATH="/usr/local/share/dotnet:$PATH"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 export LC_ALL=en_US.UTF-8
+
+export QMK_HOME=$HOME/dev/tool/qmk
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -93,3 +83,6 @@ export LC_ALL=en_US.UTF-8
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
