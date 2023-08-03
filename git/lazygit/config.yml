@@ -172,7 +172,7 @@ keybinding:
     update: 'u'
     bulkMenu: 'b'
 os:
-  openCommand: 'code -rg {{filename}}'
+  open: 'code -rg {{filename}}'
 customCommands:
   - key: 'C'
     command: 'git merge {{.SelectedLocalBranch.Name}} --commit --no-ff'
