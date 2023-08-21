@@ -174,6 +174,14 @@ keybinding:
 os:
   open: 'code -rg {{filename}}'
 customCommands:
+  - key: 'W'
+    prompts:
+      - type: 'input'
+        title: 'Commit without hooks'
+        initialValue: ''
+    command: git commit -m "{{index .PromptResponses 0}}" --no-verify
+    context: "global"
+    subprocess: true
   - key: 'C'
     command: 'git merge {{.SelectedLocalBranch.Name}} --commit --no-ff'
     context: 'localBranches'
