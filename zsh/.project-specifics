@@ -1,0 +1,2 @@
+# cnx aws setup
+export AWS_PROFILE=cnx-dev

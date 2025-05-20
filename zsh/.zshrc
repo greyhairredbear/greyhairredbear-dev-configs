@@ -43,8 +43,9 @@ HYPHEN_INSENSITIVE="true"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh 
-source $HOME/.aliases         # use absolute path here
-source $HOME/.functions       # use absolute path here
+source $HOME/.aliases              # use absolute path here
+source $HOME/.functions            # use absolute path here
+source $HOME/.project-specifics    # use absolute path here
 
 # User configuration
 
