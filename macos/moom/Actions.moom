@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Custom Controls (4001)</key>
+	<array>
+		<dict>
+			<key>Action</key>
+			<integer>1001</integer>
+			<key>Activate Applications</key>
+			<false/>
+			<key>Apply to Active Display</key>
+			<false/>
+			<key>Apply to Overlapping Windows</key>
+			<true/>
+			<key>Auto-Trigger</key>
+			<true/>
+			<key>Auto-Trigger Display Count</key>
+			<integer>3</integer>
+			<key>Generic</key>
+			<false/>
+			<key>Identifier</key>
+			<string>9E9A9368-414C-462E-BAE1-6A733F963F41</string>
+			<key>Snapshot</key>
+			<array>
+				<dict>
+					<key>Application Name</key>
+					<string>Microsoft Teams (work or school)</string>
+					<key>Available Screen Frame</key>
+					<string>{{3008, 0}, {1512, 944}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.microsoft.teams2</string>
+					<key>Screen Frame</key>
+					<string>{{3008, 0}, {1512, 982}}</string>
+					<key>Window Frame</key>
+					<string>{{3008, 0}, {1512, 944}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>Calendar | Microsoft Teams</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Vivaldi</string>
+					<key>Available Screen Frame</key>
+					<string>{{0, 80}, {3008, 1587}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.vivaldi.vivaldi</string>
+					<key>Screen Frame</key>
+					<string>{{0, 0}, {3008, 1692}}</string>
+					<key>Window Frame</key>
+					<string>{{0, 80}, {3008, 1587}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>Dev squad is way too silent during sprint retrospective : r/agile - Vivaldi</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Vivaldi</string>
+					<key>Available Screen Frame</key>
+					<string>{{0, 80}, {3008, 1587}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.vivaldi.vivaldi</string>
+					<key>Screen Frame</key>
+					<string>{{0, 0}, {3008, 1692}}</string>
+					<key>Window Frame</key>
+					<string>{{0, 81}, {3008, 1586}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>Release Timefold Solver 0.8.41 · TimefoldAI/timefold-solver - Vivaldi</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Vivaldi</string>
+					<key>Available Screen Frame</key>
+					<string>{{0, 80}, {3008, 1587}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.vivaldi.vivaldi</string>
+					<key>Screen Frame</key>
+					<string>{{0, 0}, {3008, 1692}}</string>
+					<key>Window Frame</key>
+					<string>{{0, 81}, {3008, 1586}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>Kabarettist Scheuba wegen übler Nachrede schuldig gesprochen - Medien - derStandard.at › Etat - Vivaldi</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Slack</string>
+					<key>Available Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 2983}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.tinyspeck.slackmacgap</string>
+					<key>Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 3008}}</string>
+					<key>Window Frame</key>
+					<string>{{-1692, -888}, {1692, 1492}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>Slack - * product_engineering_all - cargonexx</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>iTerm2</string>
+					<key>Available Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 2983}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.googlecode.iterm2</string>
+					<key>Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 3008}}</string>
+					<key>Window Frame</key>
+					<string>{{-1692, -888}, {1692, 2983}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>peterlaggner@optimus:~/dev/cnx-saas</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>iTerm2</string>
+					<key>Available Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 2983}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.googlecode.iterm2</string>
+					<key>Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 3008}}</string>
+					<key>Window Frame</key>
+					<string>{{-1692, -888}, {1692, 2983}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>peterlaggner@optimus:/Library/Java/JavaVirtualMachines</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>IntelliJ IDEA</string>
+					<key>Available Screen Frame</key>
+					<string>{{0, 80}, {3008, 1587}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.jetbrains.intellij</string>
+					<key>Screen Frame</key>
+					<string>{{0, 0}, {3008, 1692}}</string>
+					<key>Window Frame</key>
+					<string>{{0, 81}, {3008, 1586}}</string>
+					<key>Window Title</key>
+					<string>cnx-saas – ArrivalTimeUpdateListener.kt [optavrp.main]</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>IntelliJ IDEA</string>
+					<key>Available Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 2983}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.jetbrains.intellij</string>
+					<key>Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 3008}}</string>
+					<key>Window Frame</key>
+					<string>{{-1692, 604}, {1692, 1491}}</string>
+					<key>Window Title</key>
+					<string>Run - cnx-saas</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>IntelliJ IDEA</string>
+					<key>Available Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 2983}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.jetbrains.intellij</string>
+					<key>Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 3008}}</string>
+					<key>Window Frame</key>
+					<string>{{-1692, 604}, {1692, 1491}}</string>
+					<key>Window Title</key>
+					<string>Debug - cnx-saas</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Code</string>
+					<key>Available Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 2983}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.microsoft.vscode</string>
+					<key>Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 3008}}</string>
+					<key>Window Frame</key>
+					<string>{{-1691, 604}, {1692, 1491}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>todo.txt — notes</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Code</string>
+					<key>Available Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 2983}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.microsoft.vscode</string>
+					<key>Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 3008}}</string>
+					<key>Window Frame</key>
+					<string>{{-1692, 604}, {1692, 1491}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>.zshrc — greyhairredbear-dev-configs</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Code</string>
+					<key>Available Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 2983}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.microsoft.vscode</string>
+					<key>Screen Frame</key>
+					<string>{{-1692, -888}, {1692, 3008}}</string>
+					<key>Window Frame</key>
+					<string>{{-1692, 604}, {1692, 1491}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>keymap.c — redox</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Microsoft Outlook</string>
+					<key>Available Screen Frame</key>
+					<string>{{0, 80}, {3008, 1587}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.microsoft.outlook</string>
+					<key>Screen Frame</key>
+					<string>{{0, 0}, {3008, 1692}}</string>
+					<key>Window Frame</key>
+					<string>{{0, 81}, {3008, 1586}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>Calendar</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Bitwarden</string>
+					<key>Available Screen Frame</key>
+					<string>{{0, 80}, {3008, 1587}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.bitwarden.desktop</string>
+					<key>Screen Frame</key>
+					<string>{{0, 0}, {3008, 1692}}</string>
+					<key>Window Frame</key>
+					<string>{{748, 470}, {1512, 864}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>Bitwarden</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Microsoft Outlook</string>
+					<key>Available Screen Frame</key>
+					<string>{{0, 80}, {3008, 1587}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.microsoft.outlook</string>
+					<key>Screen Frame</key>
+					<string>{{0, 0}, {3008, 1692}}</string>
+					<key>Window Frame</key>
+					<string>{{1, 81}, {3007, 1586}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>Inbox • peter.laggner@cargonexx.de</string>
+				</dict>
+				<dict>
+					<key>Application Name</key>
+					<string>Finder</string>
+					<key>Available Screen Frame</key>
+					<string>{{0, 80}, {3008, 1587}}</string>
+					<key>Bundle Identifier</key>
+					<string>com.apple.finder</string>
+					<key>Screen Frame</key>
+					<string>{{0, 0}, {3008, 1692}}</string>
+					<key>Window Frame</key>
+					<string>{{261, 933}, {920, 492}}</string>
+					<key>Window Subrole</key>
+					<string>AXStandardWindow</string>
+					<key>Window Title</key>
+					<string>Pictures</string>
+				</dict>
+			</array>
+			<key>Snapshot Screens</key>
+			<array>
+				<string>{{0, 0}, {3008, 1692}}</string>
+				<string>{{3008, 0}, {1512, 982}}</string>
+				<string>{{-1692, -888}, {1692, 3008}}</string>
+			</array>
+			<key>Stubborn</key>
+			<false/>
+			<key>Title</key>
+			<string>Work - 3 Displays</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>BF532FCC-BAC4-4C0E-9E7F-BCC851B1FAFA</string>
+				<key>Key Code</key>
+				<integer>3</integer>
+				<key>Modifier Flags</key>
+				<integer>393475</integer>
+				<key>Visual Representation</key>
+				<string>⌃⇧F</string>
+			</dict>
+			<key>Identifier</key>
+			<string>BF532FCC-BAC4-4C0E-9E7F-BCC851B1FAFA</string>
+			<key>Relative Frame</key>
+			<string>{{0, 0}, {1, 1}}</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>01411541-DC37-4F19-8113-8924979A385F</string>
+				<key>Key Code</key>
+				<integer>123</integer>
+				<key>Modifier Flags</key>
+				<integer>10748161</integer>
+				<key>Visual Representation</key>
+				<string>⌃←</string>
+			</dict>
+			<key>Identifier</key>
+			<string>01411541-DC37-4F19-8113-8924979A385F</string>
+			<key>Relative Frame</key>
+			<string>{{0, 0}, {0.5, 1}}</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>F193A263-6429-4110-A143-6E5C02B8F6B4</string>
+				<key>Key Code</key>
+				<integer>124</integer>
+				<key>Modifier Flags</key>
+				<integer>10748161</integer>
+				<key>Visual Representation</key>
+				<string>⌃→</string>
+			</dict>
+			<key>Identifier</key>
+			<string>F193A263-6429-4110-A143-6E5C02B8F6B4</string>
+			<key>Relative Frame</key>
+			<string>{{0.5, 0}, {0.5, 1}}</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>788559B2-82AF-4846-91D3-5EC5E73B6D85</string>
+				<key>Key Code</key>
+				<integer>126</integer>
+				<key>Modifier Flags</key>
+				<integer>10748161</integer>
+				<key>Visual Representation</key>
+				<string>⌃↑</string>
+			</dict>
+			<key>Identifier</key>
+			<string>788559B2-82AF-4846-91D3-5EC5E73B6D85</string>
+			<key>Relative Frame</key>
+			<string>{{0, 0.50016761649346297}, {1, 0.49983238350653703}}</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>19</integer>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>795679B9-43E4-42E8-B58A-104A28C586C5</string>
+				<key>Key Code</key>
+				<integer>125</integer>
+				<key>Modifier Flags</key>
+				<integer>10748161</integer>
+				<key>Visual Representation</key>
+				<string>⌃↓</string>
+			</dict>
+			<key>Identifier</key>
+			<string>795679B9-43E4-42E8-B58A-104A28C586C5</string>
+			<key>Relative Frame</key>
+			<string>{{0, 0}, {1, 0.5}}</string>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>41</integer>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>D4049740-E492-4B27-AB4B-79C846841E18</string>
+				<key>Key Code</key>
+				<integer>124</integer>
+				<key>Modifier Flags</key>
+				<integer>10879235</integer>
+				<key>Visual Representation</key>
+				<string>⌃⇧→</string>
+			</dict>
+			<key>Identifier</key>
+			<string>D4049740-E492-4B27-AB4B-79C846841E18</string>
+			<key>Loop Through Displays</key>
+			<true/>
+			<key>Move Direction</key>
+			<integer>5</integer>
+			<key>Resize Proportionally</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>41</integer>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>CA3B3BC4-FAAF-45CE-92D6-9A0D73423BA6</string>
+				<key>Key Code</key>
+				<integer>123</integer>
+				<key>Modifier Flags</key>
+				<integer>10879235</integer>
+				<key>Visual Representation</key>
+				<string>⌃⇧←</string>
+			</dict>
+			<key>Identifier</key>
+			<string>CA3B3BC4-FAAF-45CE-92D6-9A0D73423BA6</string>
+			<key>Loop Through Displays</key>
+			<true/>
+			<key>Move Direction</key>
+			<integer>9</integer>
+			<key>Resize Proportionally</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Action</key>
+			<integer>1</integer>
+			<key>Hot Key</key>
+			<dict>
+				<key>Identifier</key>
+				<string>673C3783-F709-4F56-9F87-4FFBDB6B2F99</string>
+				<key>Key Code</key>
+				<integer>15</integer>
+				<key>Modifier Flags</key>
+				<integer>393475</integer>
+				<key>Visual Representation</key>
+				<string>⌃⇧R</string>
+			</dict>
+			<key>Identifier</key>
+			<string>673C3783-F709-4F56-9F87-4FFBDB6B2F99</string>
+		</dict>
+	</array>
+</dict>
+</plist>
