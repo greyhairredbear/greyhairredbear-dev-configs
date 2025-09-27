@@ -1,6 +1,6 @@
 # Setup a new MacOS device
 
-## steps until repo setup
+## Prepare for cloning repo
 
 ### Homebrew
 
@@ -38,9 +38,11 @@ brew install ...
 
 ### Clone this repo
 
-`git clone`
+```shell
+git clone git@github.com:greyhairredbear/greyhairredbear-dev-configs.git
+```
 
-## Steps with data from this repo
+## Further setup
 
 ### Shell
 
@@ -107,10 +109,6 @@ brew install moom
 - import actions (`moom/Actions.moom`)
 - set snap corners
 
-### Apple ID
-
-Don't forget to remove old devices from "Find My"
-
 ### Alfred
 
 ```shell
@@ -139,7 +137,7 @@ brew install jenv
 jenv add /Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/
 ```
 
-# Further homebrew installs
+## Further homebrew installs
 
 ```
 tap "dart-lang/dart"
@@ -184,3 +182,9 @@ cask "slack"
 cask "stats"
 cask "temurin@21"
 ```
+
+# Cleanup old device
+
+### Apple ID
+
+Don't forget to remove old devices from "Find My"
