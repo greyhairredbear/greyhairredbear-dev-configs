@@ -137,6 +137,10 @@ brew install jenv
 jenv add /Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home/
 ```
 
+```shell
+jenv enable-plugin export # to set JAVA_HOME automatically
+```
+
 ## Further homebrew installs
 
 ```
