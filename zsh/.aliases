@@ -30,6 +30,3 @@ alias dps="docker ps"
 
 # python
 alias python="python3"
-
-# zoxide
-alias z="zoxide"
