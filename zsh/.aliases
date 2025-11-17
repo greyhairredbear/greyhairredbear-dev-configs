@@ -28,5 +28,8 @@ alias lg="lazygit"
 alias d="docker"
 alias dps="docker ps"
 
-#python
+# python
 alias python="python3"
+
+# zoxide
+alias z="zoxide"
