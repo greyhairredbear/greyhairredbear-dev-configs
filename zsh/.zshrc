@@ -69,6 +69,9 @@ export LC_ALL=en_US.UTF-8
 
 export QMK_HOME=$HOME/dev/tool/qmk
 
+# zoxide
+eval "$(zoxide init zsh)"
+
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
