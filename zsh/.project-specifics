@@ -6,5 +6,5 @@ export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
 # timefold license
-export TIMEFOLD_ENTERPRISE_LICENSE_PATH="$HOME/dev/timefold/timefold-solver-enterprise-license.pem"
+export TIMEFOLD_ENTERPRISE_LICENSE_PATH="$HOME/dev/timefold/timefold-enterprise-license.pem"
 
