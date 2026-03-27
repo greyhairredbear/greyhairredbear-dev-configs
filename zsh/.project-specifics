@@ -1,9 +1,10 @@
-# cnx aws setup
-export AWS_PROFILE=cnx-dev
-
 # node version
 export PATH="$PATH:/opt/homebrew/opt/node@20/bin"
 
 # volta
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+# timefold license
+export TIMEFOLD_ENTERPRISE_LICENSE_PATH="$HOME/dev/timefold/timefold-solver-enterprise-license.pem"
+
