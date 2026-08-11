@@ -28,9 +28,9 @@ gui:
   showCommandLog: true
   commandLogSize: 8
 git:
-  paging:
-    colorArg: always
-    pager: delta --light --paging=never
+  pagers:
+    - colorArg: always
+      pager: delta --light --paging=never
   merging:
     # only applicable to unix users
     manualCommit: false
@@ -60,7 +60,7 @@ notARepository: 'prompt' # one of: 'prompt' | 'create' | 'skip'
 keybinding:
   universal:
     quit: 'q'
-    quit-alt1: '<c-c>' # alternative/alias of quit
+    quit-alt1: '<c+c>' # alternative/alias of quit
     return: '<esc>' # return to previous menu, will quit if there's nowhere to return
     quitWithoutChangingDirectory: 'Q'
     togglePanel: '<tab>' # goto the next panel
@@ -92,24 +92,24 @@ keybinding:
     scrollDownMain: '<pgdown>' # main panel scroll down
     scrollUpMain-alt1: 'K' # main panel scroll up
     scrollDownMain-alt1: 'J' # main panel scroll down
-    scrollUpMain-alt2: '<c-u>' # main panel scroll up
-    scrollDownMain-alt2: '<c-d>' # main panel scroll down
+    scrollUpMain-alt2: '<c+u>' # main panel scroll up
+    scrollDownMain-alt2: '<c+d>' # main panel scroll down
     executeShellCommand: ':'
     createRebaseOptionsMenu: 'm'
     pushFiles: 'P'
     pullFiles: 'p'
     refresh: 'R'
-    createPatchOptionsMenu: '<c-p>'
+    createPatchOptionsMenu: '<c+p>'
     nextTab: ']'
     prevTab: '['
     nextScreenMode: '+'
     prevScreenMode: '_'
     undo: 'z'
-    redo: '<c-z>'
-    filteringMenu: '<c-s>'
+    redo: '<c+z>'
+    filteringMenu: '<c+s>'
     diffingMenu: 'W'
-    diffingMenu-alt: '<c-e>' # deprecated
-    copyToClipboard: '<c-o>'
+    diffingMenu-alt: '<c+e>' # deprecated
+    copyToClipboard: '<c+o>'
     submitEditorText: '<enter>'
     appendNewline: '<tab>'
   status:
@@ -147,8 +147,8 @@ keybinding:
     markCommitAsFixup: 'f'
     createFixupCommit: 'F' # create fixup commit for this commit
     squashAboveCommits: 'S'
-    moveDownCommit: '<c-j>' # move commit down one
-    moveUpCommit: '<c-k>' # move commit up one
+    moveDownCommit: '<c+j>' # move commit down one
+    moveUpCommit: '<c+k>' # move commit up one
     amendToCommit: 'A'
     pickCommit: 'p' # pick commit (when mid-rebase)
     revertCommit: 't'
@@ -157,8 +157,8 @@ keybinding:
     pasteCommits: 'v'
     tagCommit: 'T'
     checkoutCommit: '<space>'
-    resetCherryPick: '<c-R>'
-    copyCommitMessageToClipboard: '<c-y>'
+    resetCherryPick: '<c+s+r>'
+    copyCommitMessageToClipboard: '<c+y>'
   stash:
     popStash: 'g'
   commitFiles:
